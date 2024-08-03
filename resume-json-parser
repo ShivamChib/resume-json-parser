@@ -1,0 +1,132 @@
+You are a skilled parser. Please take the following resume content as input and convert it into a structured JSON format. Ensure that each section (like Skills, Projects, Certificates, Achievements, and Education) is clearly defined in the JSON structure. 
+
+Input:
+[Insert your resume content here]
+
+Output:
+{
+  "name": "Shivam Chib",
+  "contact": {
+    "linkedin": "Shivam_Chib_",
+    "email": "shivaamchibb@gmail.com",
+    "github": "github.com/ShivamChib",
+    "mobile": "+91-7051132690"
+  },
+  "skills": {
+    "languages": ["Java", "JavaScript", "R"],
+    "frameworks": ["HTML and CSS", "NodeJS", "React"],
+    "tools": ["MySQL", "Excel", "Tableau"],
+    "softSkills": ["Problem-Solving Skills", "Team Player", "Project Management", "Adaptability"]
+  },
+  "summerTraining": {
+    "title": "Solving Competitive problems with Data Structures",
+    "duration": "Jun’23-July’23",
+    "details": [
+      "Mastered the art of tackling complex problems through an online course.",
+      "Developed expertise in implementing various algorithms to uncover optimal solutions for diverse challenges.",
+      "Honed proficiency in manipulating data structures like arrays, linked lists, trees, and graphs."
+    ]
+  },
+  "projects": [
+    {
+      "title": "Tourism Management System",
+      "date": "Oct’23",
+      "details": [
+        "Comprehensive Travel Services: Provides hotel searches, destination guides, cab bookings, and online payments.",
+        "User-Friendly Interface: Easy navigation for comparing prices, reading reviews, and making reservations.",
+        "Secure Transactions: Ensures safe and reliable payment and booking processes.",
+        "Tech: Java"
+      ]
+    },
+    {
+      "title": "Movies inside and ticket booking Website",
+      "date": "Mar’24",
+      "details": [
+        "Developed a dynamic web application allowing users to search for any movie using API integration.",
+        "Implemented features for user authentication, real-time movie database from API with filter options by year and rating, and secure ticket booking.",
+        "Ensured a responsive UI design for compatibility across mobile, tablet, and desktop screens.",
+        "Tech: HTML, CSS, JavaScript, API integration."
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Introduction to front end development",
+      "issuer": "Meta",
+      "platform": "Coursera",
+      "date": "Apr’24"
+    },
+    {
+      "title": "Foundations: Data, Data, Everywhere",
+      "issuer": "Google",
+      "platform": "Coursera",
+      "date": "Apr’24"
+    },
+    {
+      "title": "Divide and Conquer, Sorting and Searching Algorithms",
+      "platform": "Coursera",
+      "date": "May’23"
+    },
+    {
+      "title": "Excel Skills for Data Analytics and Visualization Specialization",
+      "issuer": "Macquarie University",
+      "platform": "Coursera",
+      "date": "Dec’23"
+    },
+    {
+      "title": "Introduction to Artificial Intelligence (AI)",
+      "issuer": "IBM",
+      "platform": "Coursera",
+      "date": "Mar’23"
+    },
+    {
+      "title": "R Programming",
+      "issuer": "John Hopkins University",
+      "platform": "Coursera",
+      "date": "May’24"
+    },
+    {
+      "title": "The Complete Theory of Computation",
+      "platform": "Udemy",
+      "date": "Oct’23"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "One among Dean’s top 10% students at University",
+      "date": "Since May’24",
+      "details": "For good academic performance and extra-curricular activities at university."
+    },
+    {
+      "title": "150 days badge on Leetcode",
+      "date": "Jun’24"
+    },
+    {
+      "title": "Solve 100+ Problems on LeetCode",
+      "date": "Jun’24"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Lovely Professional University",
+      "location": "Punjab, India",
+      "degree": "Bachelor of Technology - Computer Science and Engineering",
+      "percentage": "72%",
+      "duration": "Since August 2021"
+    },
+    {
+      "institution": "Mother India Sn. Secondary School",
+      "location": "Jammu, Jammu & Kashmir",
+      "degree": "Intermediate",
+      "percentage": "85.6%",
+      "duration": "April 2019 - March 2021"
+    },
+    {
+      "institution": "M.H.S.D.A.V Public School, Nagbani",
+      "location": "Jammu, Jammu & Kashmir",
+      "degree": "Matriculation",
+      "GPA": "7.4",
+      "duration": "April 2017 - March 2019"
+    }
+  ]
+}
